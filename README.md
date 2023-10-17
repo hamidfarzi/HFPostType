@@ -14,7 +14,7 @@ require_once plugin_dir_path(__FILE__) . 'inc/HFPostType/class-hf-posttype.php';
 3-Setup Posttype as sample:
 
 ```
-$drug = new \ODrug\PostType('Drug', 'drug', ['taxonomies' => ['drug-cat']]);
+$drug = new \HFAddon\HFPostType('Drug', 'drug', ['taxonomies' => ['drug-cat']]);
 ```
 
 4-Setup Taxonomies as sample:
