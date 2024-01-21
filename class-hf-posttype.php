@@ -48,7 +48,7 @@ class HFPostType
 
 
 
-        add_action('init', array($this, 'register'), 10);
+        add_action('init', array($this, 'register'), 100);
     }
 
     /*
